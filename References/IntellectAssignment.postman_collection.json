@@ -1,0 +1,71 @@
+{
+	"variables": [],
+	"info": {
+		"name": "IntellectAssignment",
+		"_postman_id": "ef58e43e-bcce-02f6-9252-19ad799d4f87",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateUser",
+			"request": {
+				"url": "http://localhost:8090/user/create",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"fName\":\"Bhargav\",\n\t\"lName\":\"Mummini\",\n\t\"email\":\"bhargavmummini@gmail.com\",\n\t\"pinCode\":\"600096\",\n\t\"birthDate\":\"10-Jun-1994\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"url": "http://localhost:8090/user/update",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"fName\":\"Bhargav\",\n\t\"lName\":\"Mummini\",\n\t\"userID\":\"bhargavmummini@gmail.com\",\n\t\"pinCode\":\"600096\",\n\t\"birthDate\":\"10-Jun-1994\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"url": "http://localhost:8090/user/delete",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"fName\":\"Bhargav\",\n\t\"lName\":\"Mummini\",\n\t\"userID\":\"bhargavmummini@gmail.com\",\n\t\"pinCode\":\"600096\",\n\t\"birthDate\":\"10-Jun-1994\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
