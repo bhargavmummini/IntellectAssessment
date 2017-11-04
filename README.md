@@ -13,7 +13,7 @@ Later I have done the following the following things
 * Implemented Service interface and associated methods
 * Created unit test cases for testing the service later
 * Create REST controller with required URL which consumes JSON and interacts with service layer and then sends back the data to client
-* Added validation for checking Names, email and Data of Birth
+* Added validation for checking Names, email and Date of Birth
 * Finally tested rest controllers using Postman
 
 
